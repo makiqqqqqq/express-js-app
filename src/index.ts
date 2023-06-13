@@ -16,6 +16,7 @@ app.get('/', (req: Request, res: Response) => {
 app.use('/products', productsRouter)
 app.use('/users', usersRouter)
 
+
 //start app
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
